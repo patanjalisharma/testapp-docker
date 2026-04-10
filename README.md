@@ -81,8 +81,3 @@ The image is publicly available on Docker Hub:
 ```bash
 docker-compose down
 ```
-
-
-```bash
-docker-compose down -v
-```
