@@ -59,7 +59,6 @@ The image is publicly available on Docker Hub:
 ## ✨ Features
 
 - Add users via a simple form (name, email, password)
-- Data persisted in MongoDB
 - Fully containerized — no manual dependency installation
 - Works out of the box with a single `docker-compose up`
 
@@ -83,7 +82,6 @@ The image is publicly available on Docker Hub:
 docker-compose down
 ```
 
-To also remove the MongoDB volume (clears all data):
 
 ```bash
 docker-compose down -v
